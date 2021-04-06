@@ -58,6 +58,19 @@ For development I used Anancoda and Jupyter Notebook, but use the development to
 <p>
 You can train your model, just build your database and do the training on it.
 </p>
+<p>
+<h5>Training variables</h5>
+<p><b>starting_learning:</b> Initial learning rate.</p>
+<p><b>training_size:</b> Number of times the model will train with the dataset.</p>
+<p><b>batch_size:</b> The batch size defines the number of samples that will be propagated over the network. The algorithm takes the first N samples (from the 1st to the Nª) of the training dataset and trains the network. Then, he takes the second N samples (from (N+1)ª to (2*N)ª) and trains the network again. N is the batch_size.
+  <p>
+    <blockquote>
+    It is recommended to use a batch size minor that number of all samples because requires less memory. Since you train the network using fewer samples, the general training procedure requires less memory. Usually the networks train faster with mini-lots.
+    </blockquote>
+  </p>
+</p>
+<p><b>images_path:</b> Path with positive and negative images for training.</p>
+</p>
 
 # Image Application
 

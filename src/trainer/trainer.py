@@ -28,7 +28,7 @@ batch_size = 50
 # Indicates the path with the list of images (dataset) and generates a list of the images
 image_sizeX = 224
 image_sizeY = 224
-images_path = "C:/Projetos/Git/facemask-recognition/dataset/mask"
+images_path = "dataset/mask"
 print("[INFO] Loading images from " + images_path)
 images_list = list(paths.list_images(images_path))
 data = []

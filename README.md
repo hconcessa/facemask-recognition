@@ -60,7 +60,12 @@ You can train your model, just build your database and do the training on it.
 </p>
 <p>
 <h3>Training variables</h3>
-<p><b>starting_learning:</b> Initial learning rate.</p>
+<p><b>learning_rate:</b> Initial learning rate.</p>
+  <p>
+    <blockquote>
+      The learning rate adjusts the optimization algorithm that determines the size of the step in each iteration, adapting it so that it has the minimum of loss. The standard learning rate is 0.001, but you can do a variable learning rate throughout the learning process, <a href="https://keras.io/api/optimizers/learning_rate_schedules/">read more</a>.
+    </blockquote>
+  </p>
 <p><b>training_size:</b> Number of times the model will train with the dataset.
   <p>
     <blockquote>

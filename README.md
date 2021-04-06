@@ -59,9 +59,15 @@ For development I used Anancoda and Jupyter Notebook, but use the development to
 You can train your model, just build your database and do the training on it.
 </p>
 <p>
-<h5>Training variables</h5>
+<h3>Training variables</h3>
 <p><b>starting_learning:</b> Initial learning rate.</p>
-<p><b>training_size:</b> Number of times the model will train with the dataset.</p>
+<p><b>training_size:</b> Number of times the model will train with the dataset.
+  <p>
+    <blockquote>
+    The amount of training can vary according to your dataset. If your dataset is very large, you <b>maybe</b> able to get good results by doing the training a few times. Start with a value of around 2 ~ 5% of your dataset (for 1000 samples, train 20 ~ 50 times), and check the "Training cycle (Epoch) X Loss / Accuracy" graph to see if the model has met its objectives.
+    </blockquote>
+  </p>
+</p>
 <p><b>batch_size:</b> The batch size defines the number of samples that will be propagated over the network. The algorithm takes the first N samples (from the 1st to the Nª) of the training dataset and trains the network. Then, he takes the second N samples (from (N+1)ª to (2*N)ª) and trains the network again. N is the batch_size.
   <p>
     <blockquote>

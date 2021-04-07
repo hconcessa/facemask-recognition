@@ -21,7 +21,7 @@ import os
 
 
 # Initialize the initial learning rate, number of times to train and batch size
-starting_learning = 1e-4
+learning_rate = 1e-4
 training_size = 25
 batch_size = 50
 
@@ -81,7 +81,7 @@ for layer in baseModel.layers:
 
 # Compile the new model
 print("[INFO] Compiling the new model")
-optimizer = Adam(lr=starting_learning, decay=starting_learning / training_size)
+optimizer = Adam(lr=learning_rate, decay=learning_rate / training_size)
 model.compile(loss="binary_crossentropy", optimizer=optimizer, metrics=["accuracy"])
 
 # Train the head

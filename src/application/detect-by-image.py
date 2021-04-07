@@ -66,5 +66,6 @@ for i in range(0, detecteds.shape[2]):
 		cv2.rectangle(image, (startX, startY), (endX, endY), color, 2)
 
 # Show final image
+print("[INFO] Opening image in new window")
 cv2.imshow("Mask detector -> github/hconcessa", image)
 cv2.waitKey(0)

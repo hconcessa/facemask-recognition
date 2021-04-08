@@ -85,4 +85,10 @@ You can train your model, just build your database and do the training on it.
 
 # Image Application
 
+<h4>Before running the script:</h4>
+<img src="https://github.com/hconcessa/facemask-recognition/blob/main/examples/example1.png" width="50%"></img>
+<h4>After running the script:</h4>
+<img src="https://github.com/hconcessa/facemask-recognition/blob/main/examples/Results/Example1-after-run-script.png" width="50%"></img>
+<center><img src="https://www.computerhope.com/cdn/media/logo-200-gray.png" alt="what image shows" height="150" width="200"></center>
+
 # Camera Application

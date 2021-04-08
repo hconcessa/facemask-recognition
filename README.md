@@ -5,6 +5,9 @@
 <p>
 The script presented is a supervised machine learning, where a database (in this case images) is presented, providing a reference of what is "right" and "wrong", creating a model based on this data.
 </p>
+<p>
+To assist in the application of the model, a model ready for face detection is used, and the trained model is applied to a detected face.
+</p>
 
 # Requirements
 <ul>

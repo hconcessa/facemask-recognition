@@ -85,10 +85,14 @@ You can train your model, just build your database and do the training on it.
 
 # Image Application
 
+<p>
+  To test the trained model using an image, run script <a href"https://github.com/hconcessa/facemask-recognition/blob/main/src/application/detect-by-image.py">detect-by-image.py</a>.
+To use your image, change the directory indicated in the imageExamplePath variable of the script to the image you are going to use.
+</p>
+
 <h4>Before running the script:</h4>
 <img src="https://github.com/hconcessa/facemask-recognition/blob/main/examples/example1.png" width="50%"></img>
 <h4>After running the script:</h4>
 <img src="https://github.com/hconcessa/facemask-recognition/blob/main/examples/Results/Example1-after-run-script.png" width="50%"></img>
-<center><img src="https://www.computerhope.com/cdn/media/logo-200-gray.png" alt="what image shows" height="150" width="200"></center>
 
 # Camera Application

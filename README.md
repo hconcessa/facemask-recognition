@@ -14,6 +14,7 @@ To assist in the application of the model, a model ready for face detection is u
   <li><a href="https://www.python.org/downloads/release/python-389/">Python 3.8</a> -> Developed with version 3.8, but has not been tested in other versions.</li>
   <li><a href="https://www.tensorflow.org/">Tensorflow</a>
     <blockquote>
+      <code>pip install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.12.0-py3-none-any.whl</code>
       <code>pip install --upgrade tensorflow</code>
     </blockquote>
   </li>
